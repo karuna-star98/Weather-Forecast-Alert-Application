@@ -1,0 +1,64 @@
+{
+  "city": "Mumbai",
+  "generated": "2026-11-23 17:51:42.518033",
+  "mode": "simulate",
+  "risk": {
+    "score": 30,
+    "level": "MODERATE"
+  },
+  "comfort": 66,
+  "current": {
+    "ts": "2026-11-23T17:00",
+    "temp_c": 27.8,
+    "feels_c": 30.3,
+    "humidity": 86,
+    "wind_ms": 5.9,
+    "wind_gust_ms": 7.8,
+    "precip_mm": 0.0,
+    "cloud_pct": 51,
+    "pressure_hpa": 1004.4,
+    "weather_code": 1
+  },
+  "summary": {
+    "hours": 24,
+    "temp_min": 21.4,
+    "temp_max": 28.7,
+    "temp_avg": 24.7,
+    "hottest_time": "Tue 14:00",
+    "rain_total_mm": 42.5,
+    "rain_prob_peak": 100,
+    "gust_max": 12.4,
+    "humidity_avg": 93,
+    "uv_max": 3.9
+  },
+  "best_outdoor_window": null,
+  "aqi": {
+    "us_aqi": 62,
+    "pm2_5": 26.0,
+    "pm10": 49.6
+  },
+  "alerts": [
+    {
+      "code": "HEAVY_RAIN",
+      "label": "Heavy rainfall expected",
+      "severity": "warn",
+      "message": "56 mm of rain forecast on 2026-11-23.",
+      "advice": "Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.",
+      "when": "2026-11-23",
+      "value": 56.2,
+      "threshold": 50.0,
+      "category": "rain"
+    },
+    {
+      "code": "RAIN_SOON",
+      "label": "Rain likely in next 12h",
+      "severity": "warn",
+      "message": "Rain probability peaks at 73% around Tue 04:00.",
+      "advice": "Carry an umbrella; avoid outdoor events or cover open loads.",
+      "when": "next 12h (peak Tue 04:00)",
+      "value": 73.0,
+      "threshold": 60.0,
+      "category": "rain"
+    }
+  ]
+}

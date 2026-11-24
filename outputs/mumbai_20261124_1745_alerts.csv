@@ -1,0 +1,2 @@
+code,label,severity,message,advice,when,value,threshold,category
+RAIN_SOON,Rain likely in next 12h,warn,Rain probability peaks at 100% around Tue 17:00.,Carry an umbrella; avoid outdoor events or cover open loads.,next 12h (peak Tue 17:00),100.0,60.0,rain

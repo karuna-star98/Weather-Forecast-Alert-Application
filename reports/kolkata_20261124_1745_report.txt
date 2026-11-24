@@ -1,0 +1,38 @@
+==================================================================
+ WEATHER FORECAST & ALERT REPORT - Kolkata
+==================================================================
+ Generated : 2026-11-24 17:45 (Asia/Kolkata)   Mode: simulate / storm
+ Risk      : 45/100 (HIGH)   Comfort: 58/100
+
+CURRENT WEATHER
+------------------------------------------------------------------
+ Clear sky, 32.7°C (feels 35.7°C), humidity 72%, wind 6.7 m/s (gust 9.7), pressure 1004.3 hPa
+ Air quality: US AQI 85 (PM2.5 35.7, PM10 68.0)
+
+NEXT 24 HOURS
+------------------------------------------------------------------
+ Temp 24.1-33.2°C (avg 29.0), hottest Wed 15:00
+ Rain 0.0 mm, peak probability 49%
+ Peak gust 12.4 m/s, avg humidity 74%, max UV 7.3
+
+DAILY FORECAST
+------------------------------------------------------------------
+      date  tmax_c  tmin_c  rain_mm  rain_prob  wind_max_ms  uv_max
+Tue 24 Nov    33.9    25.3      0.0         39          8.0     7.4
+Wed 25 Nov    33.2    23.8     38.3        100         10.0     7.3
+Thu 26 Nov    31.4    23.5     50.7        100          7.6     5.0
+Fri 27 Nov    32.6    25.1     53.1        100          8.7     7.4
+Sat 28 Nov    32.3    24.1      0.0         82          7.7     7.1
+Sun 29 Nov    31.7    22.9     36.3        100          7.9     4.9
+Mon 30 Nov    31.0    22.8      0.0         40          7.9     7.0
+
+ALERTS (2)
+------------------------------------------------------------------
+ [CRITICAL] Thunderstorm expected
+            Thunderstorm conditions from Wed 19:00 (5 h).
+            -> Stay indoors, unplug sensitive equipment, avoid open fields and tall trees.
+ [WARN    ] Heavy rainfall expected
+            51 mm of rain forecast on 2026-11-26.
+            -> Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.
+
+Data source: Virtual simulator (not real weather)

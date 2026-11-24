@@ -1,0 +1,44 @@
+==================================================================
+ WEATHER FORECAST & ALERT REPORT - Kolkata
+==================================================================
+ Generated : 2026-11-23 17:51 (Asia/Kolkata)   Mode: simulate / storm
+ Risk      : 75/100 (SEVERE)   Comfort: 48/100
+
+CURRENT WEATHER
+------------------------------------------------------------------
+ Clear sky, 31.2°C (feels 32.1°C), humidity 70%, wind 7.9 m/s (gust 11.8), pressure 1001.9 hPa
+ Air quality: US AQI 85 (PM2.5 35.7, PM10 68.0)
+
+NEXT 24 HOURS
+------------------------------------------------------------------
+ Temp 23.2-32.6°C (avg 27.9), hottest Tue 13:00
+ Rain 50.3 mm, peak probability 100%
+ Peak gust 22.5 m/s, avg humidity 82%, max UV 6.5
+
+DAILY FORECAST
+------------------------------------------------------------------
+      date  tmax_c  tmin_c  rain_mm  rain_prob  wind_max_ms  uv_max
+Mon 23 Nov    31.9    23.2     32.5        100          8.6     6.7
+Tue 24 Nov    32.6    23.7     51.4        100         10.0     6.5
+Wed 25 Nov    33.4    24.9      0.0         47          7.7     6.7
+Thu 26 Nov    32.6    24.2     28.4        100          8.2     6.6
+Fri 27 Nov    33.7    25.2     32.4        100          8.0     4.8
+Sat 28 Nov    34.4    26.3      0.0         41          8.0     7.0
+Sun 29 Nov    34.2    26.4     26.6        100          7.8     6.9
+
+ALERTS (4)
+------------------------------------------------------------------
+ [CRITICAL] Thunderstorm expected
+            Thunderstorm conditions from Tue 15:00 (6 h).
+            -> Stay indoors, unplug sensitive equipment, avoid open fields and tall trees.
+ [WARN    ] Heavy rainfall expected
+            51 mm of rain forecast on 2026-11-24.
+            -> Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.
+ [WARN    ] Wind gusts ≥ 15 m/s
+            Gusts up to 22.5 m/s (81 km/h) around Tue 16:00.
+            -> Secure loose objects, avoid cranes/scaffolding/two-wheelers, expect delays.
+ [WARN    ] Rain likely in next 12h
+            Rain probability peaks at 100% around Mon 18:00.
+            -> Carry an umbrella; avoid outdoor events or cover open loads.
+
+Data source: Virtual simulator (not real weather)

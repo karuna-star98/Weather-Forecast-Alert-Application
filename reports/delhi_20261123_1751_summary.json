@@ -1,0 +1,79 @@
+{
+  "city": "Delhi",
+  "generated": "2026-11-23 17:51:41.291359",
+  "mode": "simulate",
+  "risk": {
+    "score": 45,
+    "level": "HIGH"
+  },
+  "comfort": 45,
+  "current": {
+    "ts": "2026-11-23T17:00",
+    "temp_c": 41.5,
+    "feels_c": 42.6,
+    "humidity": 30,
+    "wind_ms": 4.0,
+    "wind_gust_ms": 6.7,
+    "precip_mm": 0.0,
+    "cloud_pct": 22,
+    "pressure_hpa": 1009.5,
+    "weather_code": 0
+  },
+  "summary": {
+    "hours": 24,
+    "temp_min": 26.9,
+    "temp_max": 42.0,
+    "temp_avg": 34.4,
+    "hottest_time": "Tue 15:00",
+    "rain_total_mm": 0.0,
+    "rain_prob_peak": 18,
+    "gust_max": 7.1,
+    "humidity_avg": 43,
+    "uv_max": 8.2
+  },
+  "best_outdoor_window": {
+    "start": "Tue 06:00",
+    "end": "Tue 10:00",
+    "hours": 4
+  },
+  "aqi": {
+    "us_aqi": 220,
+    "pm2_5": 92.4,
+    "pm10": 176.0
+  },
+  "alerts": [
+    {
+      "code": "HEAT_WAVE",
+      "label": "Max temperature \u2265 40\u00b0C",
+      "severity": "warn",
+      "message": "High of 41.9\u00b0C forecast on 2026-11-23.",
+      "advice": "Stay hydrated, avoid outdoor work 12:00-16:00, check on children and elderly.",
+      "when": "2026-11-23",
+      "value": 41.9,
+      "threshold": 40.0,
+      "category": "heat"
+    },
+    {
+      "code": "UV_HIGH",
+      "label": "UV index \u2265 8",
+      "severity": "warn",
+      "message": "UV index reaches 8.1 on 2026-11-23.",
+      "advice": "Use SPF 30+, hat and sunglasses; avoid direct sun at midday.",
+      "when": "2026-11-23",
+      "value": 8.1,
+      "threshold": 8.0,
+      "category": "uv"
+    },
+    {
+      "code": "AQI_POOR",
+      "label": "Unhealthy air quality",
+      "severity": "warn",
+      "message": "US AQI is 220 (PM2.5 92.4 \u00b5g/m\u00b3).",
+      "advice": "Wear an N95 outdoors; sensitive groups should stay indoors.",
+      "when": "now",
+      "value": 220.0,
+      "threshold": 150.0,
+      "category": "air"
+    }
+  ]
+}

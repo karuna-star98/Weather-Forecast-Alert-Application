@@ -1,0 +1,53 @@
+{
+  "city": "Mumbai",
+  "generated": "2026-11-24 17:45:57.049150",
+  "mode": "simulate",
+  "risk": {
+    "score": 15,
+    "level": "LOW"
+  },
+  "comfort": 37,
+  "current": {
+    "ts": "2026-11-24T17:00",
+    "temp_c": 28.3,
+    "feels_c": 31.1,
+    "humidity": 93,
+    "wind_ms": 7.2,
+    "wind_gust_ms": 11.2,
+    "precip_mm": 0.0,
+    "cloud_pct": 100,
+    "pressure_hpa": 1001.5,
+    "weather_code": 3
+  },
+  "summary": {
+    "hours": 24,
+    "temp_min": 21.2,
+    "temp_max": 28.3,
+    "temp_avg": 24.6,
+    "hottest_time": "Tue 17:00",
+    "rain_total_mm": 21.6,
+    "rain_prob_peak": 100,
+    "gust_max": 12.1,
+    "humidity_avg": 94,
+    "uv_max": 4.8
+  },
+  "best_outdoor_window": null,
+  "aqi": {
+    "us_aqi": 62,
+    "pm2_5": 26.0,
+    "pm10": 49.6
+  },
+  "alerts": [
+    {
+      "code": "RAIN_SOON",
+      "label": "Rain likely in next 12h",
+      "severity": "warn",
+      "message": "Rain probability peaks at 100% around Tue 17:00.",
+      "advice": "Carry an umbrella; avoid outdoor events or cover open loads.",
+      "when": "next 12h (peak Tue 17:00)",
+      "value": 100.0,
+      "threshold": 60.0,
+      "category": "rain"
+    }
+  ]
+}

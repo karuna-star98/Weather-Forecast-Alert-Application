@@ -1,0 +1,3 @@
+code,label,severity,message,advice,when,value,threshold,category
+THUNDERSTORM,Thunderstorm expected,critical,Thunderstorm conditions from Wed 19:00 (5 h).,"Stay indoors, unplug sensitive equipment, avoid open fields and tall trees.",from Wed 19:00,5.0,1.0,storm
+HEAVY_RAIN,Heavy rainfall expected,warn,51 mm of rain forecast on 2026-11-26.,"Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.",2026-11-26,50.7,50.0,rain

@@ -1,0 +1,41 @@
+==================================================================
+ WEATHER FORECAST & ALERT REPORT - Shimla
+==================================================================
+ Generated : 2026-11-23 17:51 (Asia/Kolkata)   Mode: simulate / fog
+ Risk      : 45/100 (HIGH)   Comfort: 23/100
+
+CURRENT WEATHER
+------------------------------------------------------------------
+ Light rain, 12.7°C (feels 10.2°C), humidity 86%, wind 3.9 m/s (gust 6.4), pressure 1008.8 hPa
+ Air quality: US AQI 129 (PM2.5 54.2, PM10 103.2)
+
+NEXT 24 HOURS
+------------------------------------------------------------------
+ Temp 2.2-13.4°C (avg 7.9), hottest Tue 15:00
+ Rain 25.3 mm, peak probability 100%
+ Peak gust 8.5 m/s, avg humidity 93%, max UV 5.6
+
+DAILY FORECAST
+------------------------------------------------------------------
+      date  tmax_c  tmin_c  rain_mm  rain_prob  wind_max_ms  uv_max
+Mon 23 Nov    14.2     1.6     15.8        100          5.6     5.8
+Tue 24 Nov    13.4     2.2     25.6        100          5.5     5.6
+Wed 25 Nov    14.2     2.2     15.6        100          4.7     7.0
+Thu 26 Nov    15.5     2.7      0.0         79          5.0     6.6
+Fri 27 Nov    13.7     1.9     11.1        100          4.9     5.1
+Sat 28 Nov    13.1     1.0      0.0         32          5.3     6.0
+Sun 29 Nov    12.4    -0.2      0.0         33          5.8     6.1
+
+ALERTS (3)
+------------------------------------------------------------------
+ [WARN    ] Rain likely in next 12h
+            Rain probability peaks at 100% around Mon 17:00.
+            -> Carry an umbrella; avoid outdoor events or cover open loads.
+ [WARN    ] Dense fog / low visibility
+            Visibility down to 0.42 km around Tue 08:00.
+            -> Drive slowly with fog lights; expect flight/rail delays.
+ [WARN    ] Min temperature ≤ 5°C
+            Low of 1.6°C on 2026-11-23.
+            -> Protect crops from frost, dress in layers, check heating.
+
+Data source: Virtual simulator (not real weather)

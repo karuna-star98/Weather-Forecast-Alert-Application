@@ -1,0 +1,42 @@
+==================================================================
+ WEATHER FORECAST & ALERT REPORT - Delhi
+==================================================================
+ Generated : 2026-11-23 17:51 (Asia/Kolkata)   Mode: simulate / heatwave
+ Risk      : 45/100 (HIGH)   Comfort: 45/100
+
+CURRENT WEATHER
+------------------------------------------------------------------
+ Clear sky, 41.5°C (feels 42.6°C), humidity 30%, wind 4.0 m/s (gust 6.7), pressure 1009.5 hPa
+ Air quality: US AQI 220 (PM2.5 92.4, PM10 176.0)
+
+NEXT 24 HOURS
+------------------------------------------------------------------
+ Temp 26.9-42.0°C (avg 34.4), hottest Tue 15:00
+ Rain 0.0 mm, peak probability 18%
+ Peak gust 7.1 m/s, avg humidity 43%, max UV 8.2
+ Best outdoor window: Tue 06:00 -> Tue 10:00 (4 h)
+
+DAILY FORECAST
+------------------------------------------------------------------
+      date  tmax_c  tmin_c  rain_mm  rain_prob  wind_max_ms  uv_max
+Mon 23 Nov    41.9    27.6      0.0         20          5.2     8.1
+Tue 24 Nov    42.0    26.9      0.0         24          4.8     8.2
+Wed 25 Nov    43.6    28.9      0.0         15          5.0     8.1
+Thu 26 Nov    42.9    27.9      0.0         18          5.3     8.0
+Fri 27 Nov    42.1    28.4      0.0         17          5.1     7.8
+Sat 28 Nov    41.3    26.4      0.0         20          4.9     7.7
+Sun 29 Nov    41.0    26.1      0.0         18          5.9     7.9
+
+ALERTS (3)
+------------------------------------------------------------------
+ [WARN    ] Max temperature ≥ 40°C
+            High of 41.9°C forecast on 2026-11-23.
+            -> Stay hydrated, avoid outdoor work 12:00-16:00, check on children and elderly.
+ [WARN    ] UV index ≥ 8
+            UV index reaches 8.1 on 2026-11-23.
+            -> Use SPF 30+, hat and sunglasses; avoid direct sun at midday.
+ [WARN    ] Unhealthy air quality
+            US AQI is 220 (PM2.5 92.4 µg/m³).
+            -> Wear an N95 outdoors; sensitive groups should stay indoors.
+
+Data source: Virtual simulator (not real weather)

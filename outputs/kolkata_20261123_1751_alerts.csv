@@ -1,0 +1,5 @@
+code,label,severity,message,advice,when,value,threshold,category
+THUNDERSTORM,Thunderstorm expected,critical,Thunderstorm conditions from Tue 15:00 (6 h).,"Stay indoors, unplug sensitive equipment, avoid open fields and tall trees.",from Tue 15:00,6.0,1.0,storm
+HEAVY_RAIN,Heavy rainfall expected,warn,51 mm of rain forecast on 2026-11-24.,"Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.",2026-11-24,51.4,50.0,rain
+WIND_HIGH,Wind gusts ≥ 15 m/s,warn,Gusts up to 22.5 m/s (81 km/h) around Tue 16:00.,"Secure loose objects, avoid cranes/scaffolding/two-wheelers, expect delays.",peak Tue 16:00,22.5,15.0,wind
+RAIN_SOON,Rain likely in next 12h,warn,Rain probability peaks at 100% around Mon 18:00.,Carry an umbrella; avoid outdoor events or cover open loads.,next 12h (peak Mon 18:00),100.0,60.0,rain

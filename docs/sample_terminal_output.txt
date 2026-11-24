@@ -1,0 +1,41 @@
+======================================================================
+  🌤️  Mumbai  —  Weather Forecast & Alert Application
+======================================================================
+  Monday 23 Nov 2026, 17:51  |  mode: simulate (monsoon)
+
+  CURRENT WEATHER
+   Condition   : Mainly clear
+   Temperature : 27.8°C  (feels like 30.3°C)
+   Humidity    : 86%      Cloud: 51%
+   Wind        : 5.9 m/s (gusts 7.8 m/s)
+   Pressure    : 1004.4 hPa   Rain now: 0.0 mm
+   Air quality : US AQI 62  (PM2.5 26.0 µg/m³)
+   Comfort     : █████████████░░░░░░░ 66/100
+
+  NEXT 24 HOURS
+   Temperature : 21.4–28.7°C (avg 24.7), hottest at Tue 14:00
+   Rain        : 42.5 mm total, peak probability 100%
+   Wind gust   : up to 12.4 m/s    Max UV: 3.9
+
+  FORECAST
+         date  tmax_c  tmin_c  rain_mm  rain_prob  wind_max_ms  uv_max
+   Mon 23 Nov    29.3    21.2     56.2        100          7.4     3.3
+   Tue 24 Nov    28.7    21.4     42.5        100          7.4     3.9
+   Wed 25 Nov    26.3    19.7     44.1        100          8.3     3.6
+   Thu 26 Nov    26.5    19.5     18.3        100          7.8     4.8
+   Fri 27 Nov    25.9    20.2     25.4        100          8.2     3.4
+   Sat 28 Nov    27.3    20.5     35.1        100          7.6     5.7
+   Sun 29 Nov    26.8    19.7     21.0        100          7.8     3.5
+
+  RISK SCORE  ██████░░░░░░░░░░░░░░ 30/100 — MODERATE
+
+  ALERTS (2)
+   [WARN    ] Heavy rainfall expected
+              56 mm of rain forecast on 2026-11-23.
+              → Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.
+   [WARN    ] Rain likely in next 12h
+              Rain probability peaks at 73% around Tue 04:00.
+              → Carry an umbrella; avoid outdoor events or cover open loads.
+
+  NOTIFICATIONS — DRY-RUN (simulation)
+   Nothing new to send (already notified in the last 12 h, or below min severity).

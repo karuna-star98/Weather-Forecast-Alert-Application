@@ -1,0 +1,64 @@
+{
+  "city": "Kolkata",
+  "generated": "2026-11-24 17:45:57.679657",
+  "mode": "simulate",
+  "risk": {
+    "score": 45,
+    "level": "HIGH"
+  },
+  "comfort": 58,
+  "current": {
+    "ts": "2026-11-24T17:00",
+    "temp_c": 32.7,
+    "feels_c": 35.7,
+    "humidity": 72,
+    "wind_ms": 6.7,
+    "wind_gust_ms": 9.7,
+    "precip_mm": 0.0,
+    "cloud_pct": 9,
+    "pressure_hpa": 1004.3,
+    "weather_code": 0
+  },
+  "summary": {
+    "hours": 24,
+    "temp_min": 24.1,
+    "temp_max": 33.2,
+    "temp_avg": 29.0,
+    "hottest_time": "Wed 15:00",
+    "rain_total_mm": 0.0,
+    "rain_prob_peak": 49,
+    "gust_max": 12.4,
+    "humidity_avg": 74,
+    "uv_max": 7.3
+  },
+  "best_outdoor_window": null,
+  "aqi": {
+    "us_aqi": 85,
+    "pm2_5": 35.7,
+    "pm10": 68.0
+  },
+  "alerts": [
+    {
+      "code": "THUNDERSTORM",
+      "label": "Thunderstorm expected",
+      "severity": "critical",
+      "message": "Thunderstorm conditions from Wed 19:00 (5 h).",
+      "advice": "Stay indoors, unplug sensitive equipment, avoid open fields and tall trees.",
+      "when": "from Wed 19:00",
+      "value": 5.0,
+      "threshold": 1,
+      "category": "storm"
+    },
+    {
+      "code": "HEAVY_RAIN",
+      "label": "Heavy rainfall expected",
+      "severity": "warn",
+      "message": "51 mm of rain forecast on 2026-11-26.",
+      "advice": "Risk of waterlogging: reschedule transport, protect stock, avoid low-lying roads.",
+      "when": "2026-11-26",
+      "value": 50.7,
+      "threshold": 50.0,
+      "category": "rain"
+    }
+  ]
+}

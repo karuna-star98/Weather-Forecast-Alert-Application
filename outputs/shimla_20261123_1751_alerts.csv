@@ -1,0 +1,4 @@
+code,label,severity,message,advice,when,value,threshold,category
+RAIN_SOON,Rain likely in next 12h,warn,Rain probability peaks at 100% around Mon 17:00.,Carry an umbrella; avoid outdoor events or cover open loads.,next 12h (peak Mon 17:00),100.0,60.0,rain
+FOG,Dense fog / low visibility,warn,Visibility down to 0.42 km around Tue 08:00.,Drive slowly with fog lights; expect flight/rail delays.,Tue 08:00,0.424,1.0,fog
+COLD,Min temperature ≤ 5°C,warn,Low of 1.6°C on 2026-11-23.,"Protect crops from frost, dress in layers, check heating.",2026-11-23,1.6,5.0,cold

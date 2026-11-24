@@ -1,0 +1,75 @@
+{
+  "city": "Shimla",
+  "generated": "2026-11-23 17:51:44.445738",
+  "mode": "simulate",
+  "risk": {
+    "score": 45,
+    "level": "HIGH"
+  },
+  "comfort": 23,
+  "current": {
+    "ts": "2026-11-23T17:00",
+    "temp_c": 12.7,
+    "feels_c": 10.2,
+    "humidity": 86,
+    "wind_ms": 3.9,
+    "wind_gust_ms": 6.4,
+    "precip_mm": 1.9,
+    "cloud_pct": 82,
+    "pressure_hpa": 1008.8,
+    "weather_code": 61
+  },
+  "summary": {
+    "hours": 24,
+    "temp_min": 2.2,
+    "temp_max": 13.4,
+    "temp_avg": 7.9,
+    "hottest_time": "Tue 15:00",
+    "rain_total_mm": 25.3,
+    "rain_prob_peak": 100,
+    "gust_max": 8.5,
+    "humidity_avg": 93,
+    "uv_max": 5.6
+  },
+  "best_outdoor_window": null,
+  "aqi": {
+    "us_aqi": 129,
+    "pm2_5": 54.2,
+    "pm10": 103.2
+  },
+  "alerts": [
+    {
+      "code": "RAIN_SOON",
+      "label": "Rain likely in next 12h",
+      "severity": "warn",
+      "message": "Rain probability peaks at 100% around Mon 17:00.",
+      "advice": "Carry an umbrella; avoid outdoor events or cover open loads.",
+      "when": "next 12h (peak Mon 17:00)",
+      "value": 100.0,
+      "threshold": 60.0,
+      "category": "rain"
+    },
+    {
+      "code": "FOG",
+      "label": "Dense fog / low visibility",
+      "severity": "warn",
+      "message": "Visibility down to 0.42 km around Tue 08:00.",
+      "advice": "Drive slowly with fog lights; expect flight/rail delays.",
+      "when": "Tue 08:00",
+      "value": 0.424,
+      "threshold": 1.0,
+      "category": "fog"
+    },
+    {
+      "code": "COLD",
+      "label": "Min temperature \u2264 5\u00b0C",
+      "severity": "warn",
+      "message": "Low of 1.6\u00b0C on 2026-11-23.",
+      "advice": "Protect crops from frost, dress in layers, check heating.",
+      "when": "2026-11-23",
+      "value": 1.6,
+      "threshold": 5.0,
+      "category": "cold"
+    }
+  ]
+}

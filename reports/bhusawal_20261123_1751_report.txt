@@ -1,0 +1,39 @@
+==================================================================
+ WEATHER FORECAST & ALERT REPORT - Bhusawal
+==================================================================
+ Generated : 2026-11-23 17:51 (Asia/Kolkata)   Mode: simulate / heatwave
+ Risk      : 30/100 (MODERATE)   Comfort: 37/100
+
+CURRENT WEATHER
+------------------------------------------------------------------
+ Clear sky, 42.9°C (feels 42.4°C), humidity 23%, wind 4.4 m/s (gust 6.6), pressure 1010.6 hPa
+ Air quality: US AQI 128 (PM2.5 53.8, PM10 102.4)
+
+NEXT 24 HOURS
+------------------------------------------------------------------
+ Temp 28.8-43.3°C (avg 35.9), hottest Tue 15:00
+ Rain 0.0 mm, peak probability 24%
+ Peak gust 8.0 m/s, avg humidity 37%, max UV 8.1
+ Best outdoor window: Tue 06:00 -> Tue 09:00 (3 h)
+
+DAILY FORECAST
+------------------------------------------------------------------
+      date  tmax_c  tmin_c  rain_mm  rain_prob  wind_max_ms  uv_max
+Mon 23 Nov    42.9    28.9      0.0         18          4.9     7.9
+Tue 24 Nov    43.3    28.8      0.0         24          5.3     8.1
+Wed 25 Nov    43.7    29.4      0.0         19          5.3     8.4
+Thu 26 Nov    43.2    29.5      0.0         17          5.1     7.6
+Fri 27 Nov    43.5    28.9      0.0         15          5.1     8.2
+Sat 28 Nov    42.2    27.6      0.0         20          5.0     7.8
+Sun 29 Nov    40.9    26.9      0.0         21          4.9     8.0
+
+ALERTS (2)
+------------------------------------------------------------------
+ [WARN    ] Max temperature ≥ 40°C
+            High of 42.9°C forecast on 2026-11-23.
+            -> Stay hydrated, avoid outdoor work 12:00-16:00, check on children and elderly.
+ [WARN    ] UV index ≥ 8
+            UV index reaches 8.1 on 2026-11-24.
+            -> Use SPF 30+, hat and sunglasses; avoid direct sun at midday.
+
+Data source: Virtual simulator (not real weather)

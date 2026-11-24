@@ -1,0 +1,4 @@
+code,label,severity,message,advice,when,value,threshold,category
+HEAT_WAVE,Max temperature ≥ 40°C,warn,High of 41.9°C forecast on 2026-11-23.,"Stay hydrated, avoid outdoor work 12:00-16:00, check on children and elderly.",2026-11-23,41.9,40.0,heat
+UV_HIGH,UV index ≥ 8,warn,UV index reaches 8.1 on 2026-11-23.,"Use SPF 30+, hat and sunglasses; avoid direct sun at midday.",2026-11-23,8.1,8.0,uv
+AQI_POOR,Unhealthy air quality,warn,US AQI is 220 (PM2.5 92.4 µg/m³).,Wear an N95 outdoors; sensitive groups should stay indoors.,now,220.0,150.0,air

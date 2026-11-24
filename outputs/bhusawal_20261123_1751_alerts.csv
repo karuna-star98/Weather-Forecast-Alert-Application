@@ -1,0 +1,3 @@
+code,label,severity,message,advice,when,value,threshold,category
+HEAT_WAVE,Max temperature ≥ 40°C,warn,High of 42.9°C forecast on 2026-11-23.,"Stay hydrated, avoid outdoor work 12:00-16:00, check on children and elderly.",2026-11-23,42.9,40.0,heat
+UV_HIGH,UV index ≥ 8,warn,UV index reaches 8.1 on 2026-11-24.,"Use SPF 30+, hat and sunglasses; avoid direct sun at midday.",2026-11-24,8.1,8.0,uv

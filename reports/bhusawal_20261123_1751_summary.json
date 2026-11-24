@@ -1,0 +1,68 @@
+{
+  "city": "Bhusawal",
+  "generated": "2026-11-23 17:51:45.457816",
+  "mode": "simulate",
+  "risk": {
+    "score": 30,
+    "level": "MODERATE"
+  },
+  "comfort": 37,
+  "current": {
+    "ts": "2026-11-23T17:00",
+    "temp_c": 42.9,
+    "feels_c": 42.4,
+    "humidity": 23,
+    "wind_ms": 4.4,
+    "wind_gust_ms": 6.6,
+    "precip_mm": 0.0,
+    "cloud_pct": 21,
+    "pressure_hpa": 1010.6,
+    "weather_code": 0
+  },
+  "summary": {
+    "hours": 24,
+    "temp_min": 28.8,
+    "temp_max": 43.3,
+    "temp_avg": 35.9,
+    "hottest_time": "Tue 15:00",
+    "rain_total_mm": 0.0,
+    "rain_prob_peak": 24,
+    "gust_max": 8.0,
+    "humidity_avg": 37,
+    "uv_max": 8.1
+  },
+  "best_outdoor_window": {
+    "start": "Tue 06:00",
+    "end": "Tue 09:00",
+    "hours": 3
+  },
+  "aqi": {
+    "us_aqi": 128,
+    "pm2_5": 53.8,
+    "pm10": 102.4
+  },
+  "alerts": [
+    {
+      "code": "HEAT_WAVE",
+      "label": "Max temperature \u2265 40\u00b0C",
+      "severity": "warn",
+      "message": "High of 42.9\u00b0C forecast on 2026-11-23.",
+      "advice": "Stay hydrated, avoid outdoor work 12:00-16:00, check on children and elderly.",
+      "when": "2026-11-23",
+      "value": 42.9,
+      "threshold": 40.0,
+      "category": "heat"
+    },
+    {
+      "code": "UV_HIGH",
+      "label": "UV index \u2265 8",
+      "severity": "warn",
+      "message": "UV index reaches 8.1 on 2026-11-24.",
+      "advice": "Use SPF 30+, hat and sunglasses; avoid direct sun at midday.",
+      "when": "2026-11-24",
+      "value": 8.1,
+      "threshold": 8.0,
+      "category": "uv"
+    }
+  ]
+}
